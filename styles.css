@@ -8,7 +8,6 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  border: 1px solid red;
   font-family: "Inter", sans-serif;
   transition-duration: 200ms;
 }
@@ -54,7 +53,10 @@ nav {
 }
 
 nav a {
-  cursor: pointer;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-weight:bold
 }
 nav a:hover {
   opacity: 0.7;
