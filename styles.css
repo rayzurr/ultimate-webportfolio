@@ -20,12 +20,12 @@ body {
   flex-direction: column;
   gap: 72px;
   padding: 14px;
+
 }
 
 .darkerText {
   color: var(--secondary-color);
 }
-
 
 header,
 main,
@@ -153,11 +153,14 @@ section{
 .projectContainer{
     display: flex;
     flex-direction: column;
+
 }
 
 .headerText{
     margin-bottom: 24px;
 }
+
+
 .projectItem{
     display:flex;
     align-items: stretch;
