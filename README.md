@@ -17,4 +17,4 @@ Welcome! This repository showcases my web development skills and creative vision
 - I'm always looking for new opportunities to learn and collaborate. Feel free to reach out to me via:
 
 - Email: [raymond.yu_@outlook.com]
-- Linktree [linktr.ee/ryseperformance.com]
+- Linktree [linktr.ee/ryseperformance]
