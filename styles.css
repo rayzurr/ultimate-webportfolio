@@ -1,7 +1,7 @@
 :root {
-  --primary-color: #adf0d4;
-  --secondary-color: #1fd8a4;
-  --bg-color: #0d1512;
+  --primary-color: #304269;
+  --secondary-color: #5074c2;
+  --bg-color: #D9E8F5;
 }
 
 * {
@@ -94,6 +94,7 @@ section{
     border-radius: 100%;
     max-width: 114px;
     overflow: hidden;
+    
 }
 
 
@@ -101,6 +102,10 @@ section{
     width: 100%;
     aspect-ratio: 1/1;
     object-fit: cover;
+}
+
+.dropShadow{
+    filter: drop-shadow(-10px -10px 10px black);
 }
 
 
@@ -179,12 +184,23 @@ section{
     max-width: 30%;
     overflow: hidden;
     border-radius: 8px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+
 }
+
+/* how do I target the only project 1 & 2 */
+.projectItem>div:last-child:hover{ 
+   opacity: 0.7;  
+}
+
+
 
 .projectItem>div:last-child img{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    filter: drop-shadow(-1px -1px 1px rgba(0, 0, 0, 0.235))
+    
 }
 
 .linkContainer{
